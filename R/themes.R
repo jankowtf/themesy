@@ -137,7 +137,7 @@ adminlte_sidebar_dbt_001 <- function() {
         dark_hover_color = themesy::dbt_001_colors("blue"),
         dark_submenu_bg = NULL,
         dark_submenu_color = themesy::dbt_001_colors("gray-light-2"),
-        dark_submenu_hover_color = themesy::dbt_001_colors("blue-light"),
+        dark_submenu_hover_color = themesy::dbt_001_colors("blue-dark"),
         light_bg = NULL,
         light_hover_bg = NULL,
         light_color = NULL,
