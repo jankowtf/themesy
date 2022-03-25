@@ -48,7 +48,10 @@ usethis::use_build_ignore(
 # Prod dependencies -------------------------------------------------------
 
 renv::install("rappster/valid")
+renv::install("fresh")
+
 usethis::use_dev_package("valid", type = "Imports", remote = "rappster/valid")
+usethis::use_package("fresh", type = "Suggests")
 
 # Tests -------------------------------------------------------------------
 

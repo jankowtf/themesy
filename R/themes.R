@@ -83,3 +83,24 @@ dbt_001_colors <- function(
 
     tbl %>% dplyr::filter(value %in% result)
 }
+
+#' Title
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' adminlte_color_dbt_001()
+adminlte_color_dbt_001 <- function() {
+    fresh::adminlte_color(
+        light_blue = themesy::dbt_001_colors("blue-light"),
+        red = themesy::dbt_001_colors("red"),
+        green = themesy::dbt_001_colors("green"),
+        aqua = themesy::dbt_001_colors("cyan"),
+        yellow = themesy::dbt_001_colors("yellow"),
+        blue = themesy::dbt_001_colors("blue"),
+        navy = themesy::dbt_001_colors("blue-dark"),
+        teal = themesy::dbt_001_colors("turquoise"),
+        gray_lte = themesy::dbt_001_colors("gray")
+    )
+}
