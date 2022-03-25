@@ -131,13 +131,13 @@ adminlte_vars_btn_dbt_001 <- function() {
 adminlte_sidebar_dbt_001 <- function() {
     fresh::adminlte_sidebar(
         width = NULL,
-        dark_bg = themesy::dbt_001_colors("gray-dark"),
+        dark_bg = themesy::dbt_001_colors("gray"),
         dark_hover_bg = themesy::dbt_001_colors("gray-light-2"),
         dark_color = "#FFF",
         dark_hover_color = themesy::dbt_001_colors("blue"),
         dark_submenu_bg = NULL,
-        dark_submenu_color = NULL,
-        dark_submenu_hover_color = NULL,
+        dark_submenu_color = "#FFF",
+        dark_submenu_hover_color = themesy::dbt_001_colors("blue"),
         light_bg = NULL,
         light_hover_bg = NULL,
         light_color = NULL,
