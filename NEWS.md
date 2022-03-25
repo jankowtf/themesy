@@ -1,3 +1,7 @@
+# themesy 0.0.0.9006
+
+- Added `adminlte_global_dbt_001()`
+
 # themesy 0.0.0.9005
 
 - Added colors to `dbt_001_colors()`

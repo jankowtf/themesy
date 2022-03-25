@@ -147,3 +147,19 @@ adminlte_sidebar_dbt_001 <- function() {
         light_submenu_hover_color = NULL
     )
 }
+
+#' Title
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' adminlte_global_dbt_001()
+adminlte_global_dbt_001 <- function() {
+    fresh::adminlte_global(
+        content_bg = "#FFF",
+        box_bg = themesy::dbt_001_colors("gray"),
+        # info_box_bg = "#D8DEE9"
+        info_box_bg = themesy::dbt_001_colors("gray-light-2")
+    )
+}
