@@ -49,9 +49,11 @@ usethis::use_build_ignore(
 
 renv::install("rappster/valid")
 renv::install("fresh")
+renv::install("dplyr")
 
 usethis::use_dev_package("valid", type = "Imports", remote = "rappster/valid")
 usethis::use_package("fresh", type = "Suggests")
+usethis::use_package("dplyr", type = "Suggests")
 
 # Tests -------------------------------------------------------------------
 

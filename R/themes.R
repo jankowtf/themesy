@@ -60,7 +60,9 @@ dbt_001_colors <- function(
 
         "gray", "cool-gray-500", "#646973",
         "gray-light", "cool-gray-400", "#878C96",
+        "gray-light-2", "cool-gray-400", "#AFB4BB",
         "gray-dark", "cool-gray-600", "#3C414B",
+        "gray-dark-2", "cool-gray-600", "#282D37",
 
         "pink", "pink-500", "#e93e8f",
         "pink-light", "pink-400", "#ee7bae",
@@ -116,5 +118,32 @@ adminlte_vars_btn_dbt_001 <- function() {
     fresh::adminlte_vars(
         "btn-default-color" = themesy::dbt_001_colors("red"),
         "btn-default-border" = themesy::dbt_001_colors("blue")
+    )
+}
+
+#' Title
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' adminlte_sidebar_dbt_001()
+adminlte_sidebar_dbt_001 <- function() {
+    fresh::adminlte_sidebar(
+        width = NULL,
+        dark_bg = themesy::dbt_001_colors("gray-dark"),
+        dark_hover_bg = themesy::dbt_001_colors("gray-light-2"),
+        dark_color = "#FFF",
+        dark_hover_color = themesy::dbt_001_colors("blue"),
+        dark_submenu_bg = NULL,
+        dark_submenu_color = NULL,
+        dark_submenu_hover_color = NULL,
+        light_bg = NULL,
+        light_hover_bg = NULL,
+        light_color = NULL,
+        light_hover_color = NULL,
+        light_submenu_bg = NULL,
+        light_submenu_color = NULL,
+        light_submenu_hover_color = NULL
     )
 }
