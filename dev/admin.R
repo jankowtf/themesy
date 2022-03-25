@@ -53,3 +53,7 @@ usethis::use_dev_package("valid", type = "Imports", remote = "rappster/valid")
 # Tests -------------------------------------------------------------------
 
 usethis::use_test("package")
+
+# Versions ----------------------------------------------------------------
+
+usethis::use_version("dev")
