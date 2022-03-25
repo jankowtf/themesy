@@ -2,6 +2,7 @@
 
 export("%>%")
 export(adminlte_color_dbt_001)
+export(adminlte_vars_btn_dbt_001)
 export(dbt_001_colors)
 importFrom(lifecycle,deprecated)
 importFrom(magrittr,"%>%")

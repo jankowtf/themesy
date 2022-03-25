@@ -104,3 +104,17 @@ adminlte_color_dbt_001 <- function() {
         gray_lte = themesy::dbt_001_colors("gray")
     )
 }
+
+#' Title
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' adminlte_vars_btn_dbt_001()
+adminlte_vars_btn_dbt_001 <- function() {
+    fresh::adminlte_vars(
+        "btn-default-color" = themesy::dbt_001_colors("red"),
+        "btn-default-border" = themesy::dbt_001_colors("blue")
+    )
+}

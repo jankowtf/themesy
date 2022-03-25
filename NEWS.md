@@ -1,6 +1,10 @@
+# themesy 0.0.0.9004
+
+- Added `adminlte_vars_btn_dbt_001()`
+
 # themesy 0.0.0.9003
 
-- Added `adminlte_color_dbt_001_colors()`
+- Added `adminlte_color_dbt_001()`
 
 # themesy 0.0.0.9002
 
