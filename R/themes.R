@@ -1,4 +1,4 @@
-#' Title
+#' Theme 'dbt_001': colors
 #'
 #' @param name
 #' @param reverse
@@ -9,6 +9,7 @@
 #' @export
 #'
 #' @examples
+#' dbt_001_colors()
 dbt_001_colors <- function(
     name = character(),
     reverse = FALSE,
