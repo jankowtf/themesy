@@ -62,6 +62,7 @@ dbt_001_colors <- function(
         "gray-light", "cool-gray-400", "#878C96",
         "gray-light-2", "cool-gray-300", "#AFB4BB",
         "gray-light-3", "cool-gray-200", "#d7dce1",
+        "gray-light-4", "cool-gray-100", "#F0F3F5",
         "gray-dark", "cool-gray-600", "#3C414B",
         "gray-dark-2", "cool-gray-700", "#282D37",
         "gray-dark-3", "cool-gray-800", "#131821",
@@ -159,8 +160,10 @@ adminlte_sidebar_dbt_001 <- function() {
 #' adminlte_global_dbt_001()
 adminlte_global_dbt_001 <- function() {
     fresh::adminlte_global(
-        content_bg = "#FFF",
-        box_bg = themesy::dbt_001_colors("gray-light-3"),
+        # content_bg = "#FFF",
+        content_bg = themesy::dbt_001_colors("gray-light-4"),
+        # box_bg = themesy::dbt_001_colors("gray-light-3"),
+        box_bg = "#FFFFFF",
         info_box_bg = themesy::dbt_001_colors("gray-light-3")
     )
 }

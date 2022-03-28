@@ -1,3 +1,8 @@
+# themesy 0.0.0.9007 (2022-03-28)
+
+- Added colors to `dbt_001_colors()`
+- Changed colors in `adminlte_global_dbt_001()`
+
 # themesy 0.0.0.9006 (2022-03-26)
 
 - Added colors to `dbt_001_colors()`
